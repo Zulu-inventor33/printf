@@ -4,6 +4,7 @@
 #include <strings.h>
 #include <stddef.h>
 #include <unistd.h>
+#include <limits.h>
 
 int _printf(const char *format, ...);
 
