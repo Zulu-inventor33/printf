@@ -32,8 +32,8 @@ int *_strcpy(char *dest, char *src);
 int _strlenc(const char *s);
 int rev_string(char *s);
 int _strlenc(const char *s);
-int printf_37(void);
-int printf_char(va_list val);
+int printf_3(void);
+int printf_cha(va_list val);
 int printf_s(va_list val);
 int _putchar(char c);
 
