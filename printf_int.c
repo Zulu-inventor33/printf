@@ -49,7 +49,7 @@ int printf_int(va_list args)
  * Return: number of characters printed
  */
 
-int printf_dec(va_list args)
+int printf_dc(va_list args)
 {
 	int n = va_arg(args, int);
 	int num, last = n % 10, digit;
