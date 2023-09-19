@@ -6,7 +6,7 @@
  */
 int printf_unsign(va_list args)
 {
-	unsign int n = va_arg(args, unsign int);
+	unsigned int n = va_arg(args, unsigned int);
 	int num, last = n % 10, digit, exp = 1;
 	int  i = 1;
 
