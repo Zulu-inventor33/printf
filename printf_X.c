@@ -10,8 +10,8 @@ int printf_X(va_list val)
 	int i;
 	int *array;
 	int counter = 0;
-	unsign int num = va_arg(val, unsig int);
-	unsign int temp = num;
+	unsigned int num = va_arg(val, unsigned int);
+	unsigned int temp = num;
 
 	while (num / 16 != 0)
 	{
