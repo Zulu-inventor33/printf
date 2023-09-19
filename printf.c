@@ -10,7 +10,7 @@ int _printf(const char * const format, ...)
 		{"%s", printf_s}, {"%c", printf_cha},
 		{"%%", printf_3},
 		{"%i", printf_int}, {"%d", printf_dec}, {"%r", printf_srev},
-		{"%R", printf_rot13}, {"%b", printf_bin}, {"%u", printf_unsigned},
+		{"%R", printf_rt13}, {"%b", printf_bin}, {"%u", printf_unsign},
 		{"%o", printf_oct}, {"%x", printf_hex}, {"%X", printf_HEX},
 		{"%S", printf_exclusive_string}, {"%p", printf_pointer}
 	};
