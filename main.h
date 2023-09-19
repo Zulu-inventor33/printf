@@ -8,6 +8,12 @@
 #include <limits.h>
 #include <stdio.h>
 
+typedef struct format
+{
+	char *id;
+	int (*f)();
+} convert_match;
+
 int _printf(const char *format, ...);
 int printf_hex_aux(unsigned long int num);
 int printf_HEX_aux(unsigned int num);
